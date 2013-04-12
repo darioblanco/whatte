@@ -8,4 +8,4 @@ def hello_world():
     return 'I am your momma, and I am in the INTERNETS'
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0')
